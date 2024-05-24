@@ -1,5 +1,5 @@
 # aws-lambda-java
-Código de exemplo para criar uma Lambda na AWS com Java.
+Código de exemplo para criar um Lambda na AWS com Java.
 
 ### Tecnologias utilizadas
 * Java 21

@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>tech.buildrun</groupId>
-    <artifactId>aws-lambda-app-java</artifactId>
+    <artifactId>aws-lambda-java</artifactId>
     <packaging>jar</packaging>
     <version>0.0.1</version>
-    <name>aws-lambda-app-java</name>
+    <name>aws-lambda-java</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
