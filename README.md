@@ -24,8 +24,18 @@ mvn clean package
     * ````tech.buildrun.lambda.Handler::handleRequest````
   * Em Code source fazer o upload do arquivo .jar gerado, que está dentro da pasta target do projeto
 
-* Testar a função Lambda
-  * Criar um teste de evento de teste
-  * Executar o teste
-  * Verificar o resultado
+* Testar a função Lambda via função URL
+  * Vá em configurações da função Lambda
+  * Selecione a função URL e copie o link
+  * E no Postman ou Insomnia, faça uma requisição ```POST``` passando o JSON de entrada
+  * Exemplo de JSON de entrada:
+  
+```cURL
+curl --location --request POST 'https://<codigo-lambda>.lambda-url.sa-east-1.on.aws/' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"username": "admin",
+"password": "123"
+}'
+  ```
 
